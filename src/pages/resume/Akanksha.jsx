@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { Music2, Palette, Globe } from 'lucide-react'
 
 const EXPERIENCE = [
@@ -198,11 +197,6 @@ export default function AkankshaResume() {
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '1rem', color: 'rgba(255,255,255,0.65)', letterSpacing: '0.04em' }}>
             Project Manager &amp; Strategy &amp; Analytics Professional
           </p>
-          <div style={{ marginTop: '2rem' }}>
-            <Link to="/about" className="btn btn--ghost btn--sm">
-              ← Back to About
-            </Link>
-          </div>
         </div>
       </section>
 

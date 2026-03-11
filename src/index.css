@@ -1,5 +1,5 @@
 /* ============================================================
-   BAREWEDCRAFTS — GLOBAL DESIGN SYSTEM
+   AKANKSHA BAPNA — GLOBAL DESIGN SYSTEM
    ============================================================ */
 
 /* ========================= RESET ========================= */
@@ -732,6 +732,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8125rem;
   color: rgba(255,255,255,0.45);
 }
+
+.footer--minimal { padding: var(--sp-3) 0; }
+.footer__bottom--solo { justify-content: center; padding-top: 0; }
 
 /* ========================= INTERNAL NAV ========================= */
 .internal-nav {
