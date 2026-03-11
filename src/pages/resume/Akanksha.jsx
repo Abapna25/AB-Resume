@@ -201,10 +201,7 @@ export default function AkankshaResume() {
                   <span aria-hidden="true">📍</span> Washougal, WA
                 </span>
                 <a href="mailto:bapna.akanksha@gmail.com">bapna.akanksha@gmail.com</a>
-                <a href="https://abapna.webnode.page/" target="_blank" rel="noopener noreferrer">
-                  abapna.com
-                </a>
-                <a
+<a
                   href="https://www.linkedin.com/in/akanksha-bapna-927972102/"
                   target="_blank"
                   rel="noopener noreferrer"
