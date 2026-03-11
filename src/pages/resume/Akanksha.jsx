@@ -56,42 +56,31 @@ const ADDITIONAL_EXPERIENCE = [
     title: 'Teaching Assistant',
     org: 'Smith School of Business, UMD',
     dates: 'Aug 2020 – Jun 2021',
-    bullets: [
-      'Facilitated office hours for two courses, helping 20+ of 35 students understand complex concepts and improving class averages.',
-    ],
+    desc: 'Supported 20+ students across two analytics courses, improving class comprehension and average performance.',
   },
   {
     title: 'Consultant',
     org: 'Medhen Orphan Relief Effort',
     dates: 'Jun 2021 – Dec 2021',
-    bullets: [
-      'Developed social media and PR strategies including a press kit to connect with local newspapers, digital media, and TV stations.',
-    ],
+    desc: 'Developed PR and social media strategy including a press kit for nonprofit outreach across digital and broadcast media.',
   },
   {
     title: 'Research Intern',
     org: 'CHIDS',
     dates: 'Jun 2021 – Dec 2021',
-    bullets: [
-      'Identified marketing content for 6 audience segments for HIV prevention outreach among South African adolescent girls.',
-      'Conducted A/B testing via Facebook and derived principles for effective personalized messaging.',
-    ],
+    desc: 'Conducted audience segmentation and A/B testing via Facebook to optimize HIV prevention messaging for South African adolescent girls.',
   },
   {
     title: 'Research Student',
     org: 'TIFR',
     dates: 'Jan 2018 – Aug 2018',
-    bullets: [
-      'Synthesized DSTMS crystal for nonlinear optics applications, doubling crystal size to 1×1×0.5 cc by optimizing growth conditions.',
-    ],
+    desc: 'Optimized crystal growth conditions for nonlinear optics research, doubling crystal output size.',
   },
   {
     title: 'Intern',
     org: 'Coromandel Fertilizer',
     dates: 'May 2016 – Jun 2016',
-    bullets: [
-      'Authored a paper on improving sulphuric acid manufacturing efficiency to 99%.',
-    ],
+    desc: 'Authored a process improvement paper targeting 99% sulphuric acid manufacturing efficiency.',
   },
 ]
 
@@ -257,20 +246,20 @@ export default function AkankshaResume() {
             </section>
 
             {/* ── ADDITIONAL EXPERIENCE ── */}
-            <section className="resume-section" aria-labelledby="a-additional">
-              <h2 id="a-additional" className="resume-section-title">Internships &amp; Additional Experience</h2>
-              {ADDITIONAL_EXPERIENCE.map(({ title, org, dates, bullets }) => (
-                <div key={title + org} className="resume-entry">
-                  <div className="resume-entry-header">
-                    <span className="resume-entry-title">{title}</span>
-                    <span className="resume-entry-date">{dates}</span>
+            <section className="resume-section resume-section--secondary" aria-labelledby="a-additional">
+              <h2 id="a-additional" className="resume-section-title resume-section-title--secondary">Additional Experience</h2>
+              <div className="resume-addl-list">
+                {ADDITIONAL_EXPERIENCE.map(({ title, org, dates, desc }) => (
+                  <div key={title + org} className="resume-addl-entry">
+                    <div className="resume-addl-meta">
+                      <span className="resume-addl-title">{title}</span>
+                      <span className="resume-addl-org">{org}</span>
+                      <span className="resume-addl-date">{dates}</span>
+                    </div>
+                    <p className="resume-addl-desc">{desc}</p>
                   </div>
-                  <p className="resume-entry-org">{org}</p>
-                  <div className="resume-entry-desc">
-                    <ul>{bullets.map(b => <li key={b}>{b}</li>)}</ul>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </section>
 
             {/* ── EDUCATION ── */}

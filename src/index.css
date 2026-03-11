@@ -894,6 +894,49 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.25rem;
 }
 
+/* Additional Experience — condensed secondary section */
+.resume-section--secondary { margin-top: calc(var(--sp-4) * -0.25); }
+.resume-section-title--secondary {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+  border-bottom-color: var(--border-light);
+  opacity: 0.8;
+}
+
+.resume-addl-list { display: flex; flex-direction: column; gap: 0.625rem; }
+.resume-addl-entry { display: grid; grid-template-columns: 1fr; gap: 0.125rem; }
+.resume-addl-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.5rem;
+  row-gap: 0;
+}
+.resume-addl-title {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-body);
+}
+.resume-addl-org {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.resume-addl-org::before { content: '·'; margin-right: 0.5rem; color: var(--border); }
+.resume-addl-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+.resume-addl-date::before { content: '·'; margin-right: 0.5rem; color: var(--border); }
+.resume-addl-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
 .resume-entry { margin-bottom: 1.5rem; }
 .resume-entry-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.25rem; }
 .resume-entry-title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--text-dark); }
