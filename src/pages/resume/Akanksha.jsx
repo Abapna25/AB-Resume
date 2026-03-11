@@ -1,4 +1,4 @@
-import { Music2, Palette, Globe } from 'lucide-react'
+import { Music2, Palette, Globe, Linkedin } from 'lucide-react'
 
 const EXPERIENCE = [
   {
