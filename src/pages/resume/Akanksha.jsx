@@ -1,4 +1,4 @@
-import { Music2, Palette, Globe, Linkedin, Github } from 'lucide-react'
+import { Music2, Palette, Languages, Linkedin, Github } from 'lucide-react'
 
 const EXPERIENCE = [
   {
@@ -324,7 +324,7 @@ export default function AkankshaResume() {
                   <ul style={iconListStyle} aria-label="Spoken languages">
                     {SPOKEN_LANGUAGES.map(({ lang, level }) => (
                       <li key={lang} style={iconRowStyle}>
-                        <Globe size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" style={{ flexShrink: 0 }} />
+                        <Languages size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" style={{ flexShrink: 0 }} />
                         <span>
                           {lang}
                           <span style={{ color: 'var(--text-muted)', marginLeft: '0.375rem' }}>— {level}</span>
