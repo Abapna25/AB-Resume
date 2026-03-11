@@ -150,64 +150,42 @@ const INTERESTS = [
   { label: 'Painting', Icon: Palette },
 ]
 
-const iconListStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '0.625rem',
-  listStyle: 'none',
-  padding: 0,
-  margin: 0,
-}
-
-const iconRowStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  gap: '0.625rem',
-  fontSize: '0.9375rem',
-  color: 'var(--text-body)',
-}
-
 export default function AkankshaResume() {
   return (
     <>
       {/* ── PAGE HERO ── */}
       <section className="page-hero" aria-labelledby="akanksha-page-heading">
-        <div className="container" style={{ padding: '4.5rem var(--side-pad) 3.5rem' }}>
-          <p className="eyebrow" style={{ color: 'var(--gold-light)', marginBottom: '1rem' }}>
-            Resume
-          </p>
+        <div className="container resume-hero__inner">
+          <p className="eyebrow eyebrow--light">Resume</p>
           <span className="gold-rule gold-rule--lg" aria-hidden="true" />
-          <h1
-            id="akanksha-page-heading"
-            style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.2rem, 5vw, 3.75rem)', fontWeight: 600, color: 'var(--white)', lineHeight: 1.1, marginBottom: '0.875rem' }}
-          >
+          <h1 id="akanksha-page-heading" className="resume-hero__name">
             Akanksha Bapna
           </h1>
-          <p style={{ fontFamily: 'var(--font-body)', fontSize: '1rem', color: 'rgba(255,255,255,0.65)', letterSpacing: '0.04em' }}>
+          <p className="resume-hero__role">
             Project Manager &amp; Strategy &amp; Analytics Professional
           </p>
         </div>
       </section>
 
       {/* ── RESUME BODY ── */}
-      <div style={{ background: 'var(--light-cream)', padding: '3rem 0 5rem' }}>
+      <div className="resume-body">
         <div className="container">
           <article className="resume-page" aria-label="Akanksha Bapna's resume">
 
             {/* ── CONTACT HEADER ── */}
             <header className="resume-header">
               <address className="resume-contact-row" style={{ fontStyle: 'normal' }}>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
+                <span className="resume-contact-location">
                   <span aria-hidden="true">📍</span> Portland Metro Area, OR
                 </span>
                 <a href="mailto:bapna.akanksha@gmail.com">bapna.akanksha@gmail.com</a>
-<a
+                <a
                   href="https://www.linkedin.com/in/akanksha-bapna-927972102/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Akanksha Bapna on LinkedIn"
                 >
-                  <Linkedin size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '0.3rem', marginTop: '-2px' }} />
+                  <Linkedin size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" className="resume-contact-icon" />
                   LinkedIn
                 </a>
                 <a
@@ -216,7 +194,7 @@ export default function AkankshaResume() {
                   rel="noopener noreferrer"
                   aria-label="Akanksha Bapna on GitHub"
                 >
-                  <Github size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '0.3rem', marginTop: '-2px' }} />
+                  <Github size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" className="resume-contact-icon" />
                   GitHub
                 </a>
               </address>
@@ -225,7 +203,7 @@ export default function AkankshaResume() {
             {/* ── SUMMARY ── */}
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
-              <p className="resume-entry-desc" style={{ fontSize: '1rem', lineHeight: 1.85 }}>
+              <p className="resume-summary">
                 Results-driven Project Manager and Strategy &amp; Analytics professional with 6+ years of experience spanning software engineering, data analytics, and business strategy. Proven track record managing cross-functional teams, delivering data-driven solutions, and driving AI/ML adoption across enterprise and government clients. Holds active public trust clearance. Expertise in Agile delivery, stakeholder management, and translating complex data into actionable business insights.
               </p>
             </section>
@@ -241,9 +219,7 @@ export default function AkankshaResume() {
                   </div>
                   <p className="resume-entry-org">
                     {org}
-                    <span style={{ color: 'var(--text-muted)', fontWeight: 400, marginLeft: '0.5rem' }}>
-                      — {location}
-                    </span>
+                    <span className="resume-entry-location">— {location}</span>
                   </p>
                   <div className="resume-entry-desc">
                     <ul>{bullets.map(b => <li key={b}>{b}</li>)}</ul>
@@ -279,7 +255,7 @@ export default function AkankshaResume() {
                     <span className="resume-entry-date">{dates}</span>
                   </div>
                   <p className="resume-entry-org">{school}</p>
-                  {note && <p className="resume-entry-desc" style={{ marginTop: '0.25rem' }}>{note}</p>}
+                  {note && <p className="resume-entry-note">{note}</p>}
                 </div>
               ))}
             </section>
@@ -287,23 +263,11 @@ export default function AkankshaResume() {
             {/* ── SKILLS ── */}
             <section className="resume-section" aria-labelledby="a-skills">
               <h2 id="a-skills" className="resume-section-title">Skills</h2>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
+              <div className="resume-skills-table">
                 {SKILL_GROUPS.map(({ category, skills }) => (
-                  <div
-                    key={category}
-                    style={{ display: 'grid', gridTemplateColumns: '180px 1fr', gap: '0.75rem', alignItems: 'baseline' }}
-                  >
-                    <span style={{
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '0.75rem',
-                      fontWeight: 700,
-                      letterSpacing: '0.08em',
-                      textTransform: 'uppercase',
-                      color: 'var(--gold-text)',
-                    }}>
-                      {category}
-                    </span>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--text-body)', lineHeight: 1.7 }} aria-label={`${category}: ${skills.join(', ')}`}>
+                  <div key={category} className="resume-skills-row">
+                    <span className="resume-skill-category">{category}</span>
+                    <p className="resume-skill-values" aria-label={`${category}: ${skills.join(', ')}`}>
                       {skills.join(' | ')}
                     </p>
                   </div>
@@ -314,56 +278,45 @@ export default function AkankshaResume() {
             {/* ── LANGUAGES & INTERESTS ── */}
             <section className="resume-section" aria-labelledby="a-extra">
               <h2 id="a-extra" className="resume-section-title">Languages &amp; Interests</h2>
+              <div className="resume-extra-grid">
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
-                {/* Languages */}
                 <div>
-                  <p style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--gold-text)', marginBottom: '0.875rem' }}>
-                    Languages
-                  </p>
-                  <ul style={iconListStyle} aria-label="Spoken languages">
+                  <p className="resume-extra-label">Languages</p>
+                  <ul className="resume-icon-list" aria-label="Spoken languages">
                     {SPOKEN_LANGUAGES.map(({ lang, level }) => (
-                      <li key={lang} style={iconRowStyle}>
-                        <Languages size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" style={{ flexShrink: 0 }} />
+                      <li key={lang} className="resume-icon-row">
+                        <Languages size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" className="resume-icon-row__icon" />
                         <span>
                           {lang}
-                          <span style={{ color: 'var(--text-muted)', marginLeft: '0.375rem' }}>— {level}</span>
+                          <span className="resume-icon-row__level">— {level}</span>
                         </span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                {/* Interests */}
                 <div>
-                  <p style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--gold-text)', marginBottom: '0.875rem' }}>
-                    Interests
-                  </p>
-                  <ul style={iconListStyle} aria-label="Personal interests">
+                  <p className="resume-extra-label">Interests</p>
+                  <ul className="resume-icon-list" aria-label="Personal interests">
                     {INTERESTS.map(({ label, Icon }) => (
-                      <li key={label} style={iconRowStyle}>
-                        <Icon size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" style={{ flexShrink: 0 }} />
+                      <li key={label} className="resume-icon-row">
+                        <Icon size={15} color="var(--gold)" strokeWidth={1.5} aria-hidden="true" className="resume-icon-row__icon" />
                         <span>{label}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
+
               </div>
             </section>
 
             {/* ── CERTIFICATIONS ── */}
             <section className="resume-section" aria-labelledby="a-certs">
               <h2 id="a-certs" className="resume-section-title">Certifications</h2>
-              <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', listStyle: 'none', padding: 0, margin: 0 }} aria-label="Certifications">
+              <ul className="resume-certs-list" aria-label="Certifications">
                 {CERTIFICATIONS.map(cert => (
-                  <li
-                    key={cert}
-                    style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '0.9375rem', color: 'var(--text-body)' }}
-                  >
-                    <span
-                      style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'var(--gold)', flexShrink: 0, display: 'inline-block' }}
-                      aria-hidden="true"
-                    />
+                  <li key={cert} className="resume-cert-item">
+                    <span className="resume-cert-dot" aria-hidden="true" />
                     {cert}
                   </li>
                 ))}
