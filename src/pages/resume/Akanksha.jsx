@@ -207,6 +207,7 @@ export default function AkankshaResume() {
                   rel="noopener noreferrer"
                   aria-label="Akanksha Bapna on LinkedIn"
                 >
+                  <Linkedin size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '0.3rem', marginTop: '-2px' }} />
                   LinkedIn
                 </a>
               </address>
