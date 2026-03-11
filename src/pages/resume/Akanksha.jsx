@@ -1,4 +1,4 @@
-import { Music2, Palette, Globe, Linkedin } from 'lucide-react'
+import { Music2, Palette, Globe, Linkedin, Github } from 'lucide-react'
 
 const EXPERIENCE = [
   {
@@ -209,6 +209,15 @@ export default function AkankshaResume() {
                 >
                   <Linkedin size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '0.3rem', marginTop: '-2px' }} />
                   LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Abapna25"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Akanksha Bapna on GitHub"
+                >
+                  <Github size={14} color="var(--gold)" strokeWidth={1.75} aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '0.3rem', marginTop: '-2px' }} />
+                  GitHub
                 </a>
               </address>
             </header>
