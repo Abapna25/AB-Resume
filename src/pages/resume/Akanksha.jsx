@@ -198,7 +198,7 @@ export default function AkankshaResume() {
             <header className="resume-header">
               <address className="resume-contact-row" style={{ fontStyle: 'normal' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
-                  <span aria-hidden="true">📍</span> Washougal, WA
+                  <span aria-hidden="true">📍</span> Portland Metro Area, OR
                 </span>
                 <a href="mailto:bapna.akanksha@gmail.com">bapna.akanksha@gmail.com</a>
 <a
