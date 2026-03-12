@@ -17,6 +17,8 @@ input, textarea, select { font: inherit; }
   /* Colors */
   --white: #FFFFFF;
   --off-white: #FAFAF8;
+  --bg-base: #FFFFFF;    /* navbar / page chrome backgrounds */
+  --surface: #FFFFFF;    /* card / resume-page backgrounds */
   --light-cream: #F4F1EB;
   --border: #E2DDD5;
   --border-light: #EDE9E2;
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   z-index: var(--z-nav);
-  background: var(--white);
+  background: var(--bg-base);
   border-bottom: 1px solid var(--border-light);
   transition: box-shadow var(--t);
 }
@@ -201,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .resume-page {
-  background: var(--white);
+  background: var(--surface);
   max-width: 860px;
   margin: 0 auto;
   padding: var(--sp-6) var(--sp-4);
@@ -345,6 +347,30 @@ h1, h2, h3, h4, h5, h6 {
   .resume-entry-header { flex-direction: column; }
   .resume-skills-row { grid-template-columns: 1fr; }
   .resume-extra-grid { grid-template-columns: 1fr; }
+}
+
+/* ========================= DARK MODE ========================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds */
+    --off-white: #121212;
+    --light-cream: #121212;
+    --bg-base: #121212;
+    --surface: #1e1e1e;
+    --charcoal: #0d0d0d;
+
+    /* Text */
+    --text-dark: #f0f0f0;
+    --text-body: #efefef;
+    --text-muted: #909090;
+
+    /* Borders */
+    --border: #2e2e2e;
+    --border-light: #252525;
+
+    /* Gold — intentionally unchanged */
+    /* --gold, --gold-light, --gold-text: all inherit light-mode values */
+  }
 }
 
 /* ========================= UTILITIES ========================= */
