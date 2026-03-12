@@ -204,7 +204,7 @@ export default function AkankshaResume() {
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
               <p className="resume-summary">
-                Results-driven Project Manager and Strategy &amp; Operations professional with 6+ years of experience spanning software engineering, data analytics, and business strategy. Proven track record managing cross-functional teams, delivering data-driven solutions, and driving AI/ML adoption across enterprise and government clients. Holds active public trust clearance. Expertise in Agile delivery, stakeholder management, and translating complex data into actionable business insights.
+                Results-driven Project Manager and Strategy &amp; Operations professional with 6+ years of experience spanning software engineering, data analytics, and business strategy. Proven track record managing cross-functional teams, delivering data-driven solutions, and driving AI/ML adoption across enterprise and government clients. Is a Permanent Resident with an active Public Trust Clearance. Expertise in Agile delivery, stakeholder management, and translating complex data into actionable business insights.
               </p>
             </section>
 
