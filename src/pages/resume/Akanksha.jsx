@@ -11,6 +11,8 @@ const EXPERIENCE = [
       'Serve as primary point of contact for FDA client engagement, leading Strategy & Operations as Senior Analyst requiring active public trust clearance.',
       'Drive account growth strategy by identifying expansion opportunities, managing SOW renewals, and aligning delivery roadmaps.',
       'Lead cross-functional collaboration across engineering, analytics, and design teams using Jira, Confluence, and SharePoint.',
+      'Supported CMMI appraisal process, completing institute-required training and participating across audit phases to validate organizational process compliance.',
+      'Contributed to ISO audit readiness through artifact collection, stakeholder interviews, and post-audit remediation coordination.',
     ],
   },
   {
