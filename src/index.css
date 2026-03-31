@@ -159,6 +159,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: var(--sp-7) 0 var(--sp-6);
 }
 
+/* ========================= CTA BAND ========================= */
+.cta-band {
+  background: var(--charcoal);
+  color: var(--off-white);
+  padding: var(--sp-6) 0;
+  text-align: center;
+}
+.cta-band__inner { display: flex; flex-direction: column; gap: var(--sp-2); align-items: center; }
+.cta-band__text { font-size: 1.05rem; font-weight: 400; margin: 0; }
+.cta-band__contact { font-size: 1rem; margin: 0; color: rgba(255,255,255,0.6); }
+.cta-band__email {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 500;
+}
+.cta-band__email:hover { text-decoration: underline; color: var(--gold-light); }
+
 /* ========================= FOOTER ========================= */
 .footer {
   background: var(--charcoal);

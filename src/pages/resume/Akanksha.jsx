@@ -180,7 +180,7 @@ export default function AkankshaResume() {
                 <span className="resume-contact-location">
                   <span aria-hidden="true">📍</span> Portland Metro Area, OR
                 </span>
-                <a href="mailto:bapna.akanksha@gmail.com">bapna.akanksha@gmail.com</a>
+                <a href="mailto:ardenvalellc@gmail.com">ardenvalellc@gmail.com</a>
                 <a
                   href="https://www.linkedin.com/in/akanksha-bapna-927972102/"
                   target="_blank"
