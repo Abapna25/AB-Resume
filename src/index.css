@@ -385,8 +385,8 @@ h1, h2, h3, h4, h5, h6 {
     --border: #2e2e2e;
     --border-light: #252525;
 
-    /* Gold — intentionally unchanged */
-    /* --gold, --gold-light, --gold-text: all inherit light-mode values */
+    /* Gold */
+    --gold-text: #c4953a;
   }
 }
 
