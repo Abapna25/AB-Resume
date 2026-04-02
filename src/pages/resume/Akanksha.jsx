@@ -218,9 +218,6 @@ export default function AkankshaResume() {
               <p className="resume-summary">
                 Grew up in a military household that moved constantly, then a diplomatic posting — across two continents, but within environments so culturally diverse and structurally complex that geography was never the point. I've spent my whole life walking into rooms where I didn't know the rules and figuring them out fast. That instinct — read the room, build the relationships, make things work without a playbook — is still my most valuable operational skill.
               </p>
-              <p className="resume-summary">
-                Active Public Trust Clearance. Technical stack: Power BI · Azure Data Factory · SQL · Python · PowerApps · Agile/Scrum.
-              </p>
             </section>
 
             {/* ── EXPERIENCE ── */}
