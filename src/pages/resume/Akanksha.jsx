@@ -7,12 +7,11 @@ const EXPERIENCE = [
     location: 'McLean, VA (Remote)',
     dates: 'Jan 2025 – Present',
     bullets: [
-      'Promoted to Account Manager overseeing client relationships and delivery across multiple concurrent government and healthcare projects, managing a team of 10+.',
-      'Serve as primary point of contact for FDA client engagement, leading Strategy & Operations as Senior Analyst requiring active public trust clearance.',
-      'Drive account growth strategy by identifying expansion opportunities, managing SOW renewals, and aligning delivery roadmaps.',
-      'Lead cross-functional collaboration across engineering, analytics, and design teams using Jira, Confluence, and SharePoint.',
-      'Supported CMMI appraisal process, completing institute-required training and participating across audit phases to validate organizational process compliance.',
-      'Contributed to ISO audit readiness through artifact collection, stakeholder interviews, and post-audit remediation coordination.',
+      'Stepped into expanded ownership of a 10+ person cross-functional organization — built the client engagement model, delivery cadence, and team accountability structures from the ground up',
+      'Own end-to-end strategy and operations for a federal healthcare client, independently navigating regulatory complexity while maintaining delivery momentum across engineering, analytics, and compliance workstreams',
+      'Architect growth roadmaps across healthcare and federal verticals — identifying expansion opportunities, structuring SOW renewals, and aligning delivery to client objectives without a dedicated sales or strategy function',
+      'Led organizational compliance through CMMI appraisal — completed institute training and drove cross-functional participation across audit phases to validate process maturity',
+      'Owned ISO audit readiness end-to-end — coordinating artifact collection, stakeholder interviews, and post-audit remediation across the organization',
     ],
   },
   {
@@ -21,11 +20,12 @@ const EXPERIENCE = [
     location: 'McLean, VA (Hybrid)',
     dates: 'Aug 2023 – Dec 2024',
     bullets: [
-      'Led ACHA web application development integrating Power BI and Azure Data Factory delivering real-time data visualization to 900+ institutions, achieving 20% increase in data access efficiency.',
-      'Promoted from individual contributor to PM within 3 months; scaled team from 3 to 10 members.',
-      'Pioneered company-wide AI governance program — led Microsoft Copilot pilot increasing AI proficiency by 30%.',
-      'Established Agile processes improving project turnaround by 25%.',
-      'Mentored 3 interns, all of whom returned for winter placements.',
+      'Built a Power BI + Azure Data Factory data platform from the ground up — no existing architecture, no inherited process — now serving 900+ healthcare institutions with a 20% improvement in data access efficiency',
+      'Promoted to Project Manager within 3 months of joining; scaled the team from 3 to 10, created every process document and operational workflow from scratch, and kept delivery on schedule simultaneously',
+      'Designed and launched the company\'s AI governance program from zero — piloted Microsoft Copilot organization-wide (30% proficiency increase), built the ML training curriculum, and authored the AI Acceptable Use Policy',
+      'Built the Agile operating model that didn\'t exist before I arrived — sprint cadences, retrospectives, capacity planning, and budget forecasting — reducing project turnaround by 25%',
+      'Brought into CEO-level strategic planning on AI roadmap and financial positioning — contributed directly to the recommendations, not just the preparation',
+      'Mentored 3 interns through 10-week program (all returned for winter placements); coached a new hire through a career transition resulting in a 10% salary increase and move into federal contracting',
     ],
   },
   {
@@ -34,10 +34,14 @@ const EXPERIENCE = [
     location: 'Washington, DC (Hybrid)',
     dates: 'Jan 2022 – Aug 2023',
     bullets: [
-      'Led strategic discussions on F&B sales, pricing, and quality assurance driving 15% increase in profit margin.',
-      'Built PowerApps mobile application for resource allocation, approved for company-wide rollout.',
-      'Automated aggregation of millions of POS records reducing reporting man-hours by 80%.',
-      'Built Tableau dashboards for senior leadership financial and operational decisions.',
+      'Led analytics for non-sporting events (concerts, special events) across Nationals Park and Audi Field — including dynamic pricing strategy on specialty and alcoholic beverage items; used market research and demographic data to inform product mix decisions and ran ROI and cost-benefit analysis to support pricing recommendations',
+      'Evaluated 10–15 technology and F&B vendors per season — attended pitch meetings, conducted ROI and cost-benefit analysis, and made partnership recommendations on stadium tech deployments including self-checkout and smart checkout systems; post-onboarding, analyzed vendor sales data to advise on menu performance and product mix optimization',
+      'Independently designed and built a PowerApps staff management application hosted on Microsoft Teams — replaced a single paper-based master roster with a live system allowing managers to scan employee barcodes, see assigned concession postings, and reassign staff in real time; addressed operational and security risk across a 350+ temp staff venue',
+      'Built pre-event production PAR models for every concession location — calculating hourly item-level output targets based on attendance volume to prevent kitchen backlog, minimize food waste, and feed directly into monthly supply chain inventory ordering and pre-game stocking',
+      'Automated aggregation of millions of POS records across disparate sources using SQL — eliminated 80% of manual reporting hours and enabled the team to focus on operational decisions rather than data wrangling',
+      'Served as embedded operations strategist across three properties (Nationals Park, Audi Field, FedEx Field) — owning pricing strategy, inventory planning, staffing models, and vendor analysis across different sports calendars, ownership structures, and event types',
+      'Built staffing PAR models calibrated to per-event ticket sales — translating attendance projections into location-level headcount requirements for ~350 average temp staff per game',
+      'Built Tableau dashboards for Nationals Park and Audi Field giving senior leadership direct visibility into aggregated financial and operational performance — used in monthly strategic reviews and Per-Cap improvement recommendations',
     ],
   },
   {
@@ -46,9 +50,9 @@ const EXPERIENCE = [
     location: 'Bengaluru, India',
     dates: 'Aug 2018 – Aug 2019',
     bullets: [
-      'Automated AutoCAD triage workflows improving efficiency by 30%.',
-      'Improved reporting efficacy by 90% using Python macros.',
-      'Mentored 60+ new recruits across a year-long project.',
+      'Identified an AutoCAD triage bottleneck and built a centralized automation dashboard — improving engineering team efficiency by 30% without a formal project mandate',
+      'Built Python macros that aggregated team status data and auto-generated executive presentations — improving reporting efficacy by 90% and eliminating a recurring manual bottleneck',
+      'Operated within Agile/SDLC environment with daily stand-ups and sprint cycles; onboarded and mentored 60+ new recruits across a year-long project',
     ],
   },
 ]
@@ -164,7 +168,7 @@ export default function AkankshaResume() {
             Akanksha Bapna
           </h1>
           <p className="resume-hero__role">
-            Project Manager | Strategy &amp; Operations Specialist
+            Chief of Staff &amp; Operations Leader | Data-Driven Builder
           </p>
         </div>
       </section>
@@ -206,7 +210,16 @@ export default function AkankshaResume() {
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
               <p className="resume-summary">
-                Results-driven Project Manager and Strategy &amp; Operations professional with 6+ years of experience spanning software engineering, data analytics, and business strategy. Proven track record managing cross-functional teams, delivering data-driven solutions, and driving AI/ML adoption across enterprise and government clients. Is a Permanent Resident with an active Public Trust Clearance. Expertise in Agile delivery, stakeholder management, and translating complex data into actionable business insights.
+                Operator and builder with 6+ years turning ambiguity into infrastructure. I join organizations at inflection points — where the data exists but isn't usable, where the team is growing faster than the processes, where strategy lives in someone's head instead of a system — and I build the operational and analytical foundation that makes scale possible.
+              </p>
+              <p className="resume-summary">
+                My background spans healthcare data platforms, venue and stadium operations, and AI governance. I've built teams, shipped tools without dedicated engineering resources, and sat in rooms with executives shaping strategy — not just reporting on it. I lead with data, communicate across every level of an organization, and own problems end-to-end.
+              </p>
+              <p className="resume-summary">
+                Grew up in a military household that moved constantly, then a diplomatic posting — across two continents, but within environments so culturally diverse and structurally complex that geography was never the point. I've spent my whole life walking into rooms where I didn't know the rules and figuring them out fast. That instinct — read the room, build the relationships, make things work without a playbook — is still my most valuable operational skill.
+              </p>
+              <p className="resume-summary">
+                Active Public Trust Clearance. Technical stack: Power BI · Azure Data Factory · SQL · Python · PowerApps · Agile/Scrum.
               </p>
             </section>
 
