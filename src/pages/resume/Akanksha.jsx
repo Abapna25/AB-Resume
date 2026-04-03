@@ -49,10 +49,12 @@ const EXPERIENCE = [
     org: 'Accenture',
     location: 'Bengaluru, India',
     dates: 'Aug 2018 – Aug 2019',
+    desc: 'Selected through campus placement from a pool of 2,000 engineering graduates for a software engineering role at Accenture despite a chemical engineering background. Placed on a 500-person project delivering national internet infrastructure for an Australian government client, operating on Australian business hours from India.',
     bullets: [
-      'Identified an AutoCAD triage bottleneck and developed a centralized automation dashboard, improving engineering team efficiency by 30%',
+      'Emerged as the primary liaison to visiting Australian leadership within six months of joining, representing a 100+ person polylingual team as the face of delivery for one of Accenture India\'s largest active engagements',
+      'Designated subject matter expert for all incoming team members, authoring the onboarding methodology and training staff on network triage, AutoCAD analysis, and escalation protocols',
       'Programmed Python macros aggregating team status data and auto-generating executive presentations, improving reporting efficacy by 90% and eliminating a recurring manual process',
-      'Operated within an Agile/SDLC environment with daily stand-ups and sprint cycles, onboarding and mentoring 60+ new recruits throughout a year-long project',
+      'Identified a structural bottleneck in the AutoCAD triage workflow and engineered a centralized automation dashboard, improving team efficiency by 30% across both shifts',
     ],
   },
 ]
@@ -220,7 +222,7 @@ export default function AkankshaResume() {
             {/* ── EXPERIENCE ── */}
             <section className="resume-section" aria-labelledby="a-experience">
               <h2 id="a-experience" className="resume-section-title">Experience</h2>
-              {EXPERIENCE.map(({ title, org, location, dates, bullets }) => (
+              {EXPERIENCE.map(({ title, org, location, dates, desc, bullets }) => (
                 <div key={title + org} className="resume-entry">
                   <div className="resume-entry-header">
                     <span className="resume-entry-title">{title}</span>
@@ -231,6 +233,7 @@ export default function AkankshaResume() {
                     <span className="resume-entry-location">— {location}</span>
                   </p>
                   <div className="resume-entry-desc">
+                    {desc && <p className="resume-entry-note">{desc}</p>}
                     <ul>{bullets.map(b => <li key={b}>{b}</li>)}</ul>
                   </div>
                 </div>
