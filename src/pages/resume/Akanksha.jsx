@@ -7,11 +7,11 @@ const EXPERIENCE = [
     location: 'McLean, VA (Remote)',
     dates: 'Jan 2025 – Present',
     bullets: [
-      'Stepped into expanded ownership of a 10+ person cross-functional organization — built the client engagement model, delivery cadence, and team accountability structures from the ground up',
-      'Own end-to-end strategy and operations for a federal healthcare client, independently navigating regulatory complexity while maintaining delivery momentum across engineering, analytics, and compliance workstreams',
-      'Architect growth roadmaps across healthcare and federal verticals — identifying expansion opportunities, structuring SOW renewals, and aligning delivery to client objectives without a dedicated sales or strategy function',
-      'Led organizational compliance through CMMI appraisal — completed institute training and drove cross-functional participation across audit phases to validate process maturity',
-      'Owned ISO audit readiness end-to-end — coordinating artifact collection, stakeholder interviews, and post-audit remediation across the organization',
+      'Oversees a 10-person cross-functional organization, having established the client engagement model, delivery cadence, and team accountability structures from the ground up upon joining',
+      'Leads strategy and operations for a federal healthcare client, independently managing regulatory complexity while sustaining delivery momentum spanning engineering, analytics, and compliance workstreams',
+      'Drives growth across healthcare and federal verticals by identifying expansion opportunities, structuring SOW renewals, and aligning delivery roadmaps to client objectives without a dedicated sales or strategy function',
+      'Shepherds the company through CMMI appraisal by completing institute-required training and coordinating cross-functional participation across audit phases to validate process maturity',
+      'Manages ISO audit readiness by coordinating artifact collection, stakeholder interviews, and post-audit remediation spanning the full organization',
     ],
   },
   {
@@ -20,12 +20,12 @@ const EXPERIENCE = [
     location: 'McLean, VA (Hybrid)',
     dates: 'Aug 2023 – Dec 2024',
     bullets: [
-      'Built a Power BI + Azure Data Factory data platform from the ground up — no existing architecture, no inherited process — now serving 900+ healthcare institutions with a 20% improvement in data access efficiency',
-      'Promoted to Project Manager within 3 months of joining; scaled the team from 3 to 10, created every process document and operational workflow from scratch, and kept delivery on schedule simultaneously',
-      'Designed and launched the company\'s AI governance program from zero — piloted Microsoft Copilot organization-wide (30% proficiency increase), built the ML training curriculum, and authored the AI Acceptable Use Policy',
-      'Built the Agile operating model that didn\'t exist before I arrived — sprint cadences, retrospectives, capacity planning, and budget forecasting — reducing project turnaround by 25%',
-      'Brought into CEO-level strategic planning on AI roadmap and financial positioning — contributed directly to the recommendations, not just the preparation',
-      'Mentored 3 interns through 10-week program (all returned for winter placements); coached a new hire through a career transition resulting in a 10% salary increase and move into federal contracting',
+      'Architected a Power BI and Azure Data Factory data platform with no existing infrastructure or inherited process, delivering real-time data access to 900+ healthcare institutions and achieving a 20% improvement in efficiency',
+      'Earned a promotion to Project Manager within three months of joining, scaled the team from 3 to 10 members, authored every process document and workflow from scratch, and maintained on-schedule delivery throughout',
+      'Designed and launched the company\'s AI governance program, piloting Microsoft Copilot organization-wide to increase employee AI proficiency by 30%, developing the ML training curriculum, and authoring the AI Acceptable Use Policy',
+      'Established the Agile operating model where none had existed, standing up sprint cadences, retrospectives, capacity planning, and budget forecasting, reducing project turnaround by 25%',
+      'Contributed directly to CEO-level planning on AI roadmap and financial positioning, shaping the recommendations rather than preparing the materials',
+      'Mentored three interns through a 10-week program, all of whom returned for winter placements, and coached a new hire through a career transition resulting in a 10% salary increase and a move into federal contracting',
     ],
   },
   {
@@ -34,14 +34,14 @@ const EXPERIENCE = [
     location: 'Washington, DC (Hybrid)',
     dates: 'Jan 2022 – Aug 2023',
     bullets: [
-      'Led analytics for non-sporting events (concerts, special events) across Nationals Park and Audi Field — including dynamic pricing strategy on specialty and alcoholic beverage items; used market research and demographic data to inform product mix decisions and ran ROI and cost-benefit analysis to support pricing recommendations',
-      'Evaluated 10–15 technology and F&B vendors per season — attended pitch meetings, conducted ROI and cost-benefit analysis, and made partnership recommendations on stadium tech deployments including self-checkout and smart checkout systems; post-onboarding, analyzed vendor sales data to advise on menu performance and product mix optimization',
-      'Independently designed and built a PowerApps staff management application hosted on Microsoft Teams — replaced a single paper-based master roster with a live system allowing managers to scan employee barcodes, see assigned concession postings, and reassign staff in real time; addressed operational and security risk across a 350+ temp staff venue',
-      'Built pre-event production PAR models for every concession location — calculating hourly item-level output targets based on attendance volume to prevent kitchen backlog, minimize food waste, and feed directly into monthly supply chain inventory ordering and pre-game stocking',
-      'Automated aggregation of millions of POS records across disparate sources using SQL — eliminated 80% of manual reporting hours and enabled the team to focus on operational decisions rather than data wrangling',
-      'Served as embedded operations strategist across three properties (Nationals Park, Audi Field, FedEx Field) — owning pricing strategy, inventory planning, staffing models, and vendor analysis across different sports calendars, ownership structures, and event types',
-      'Built staffing PAR models calibrated to per-event ticket sales — translating attendance projections into location-level headcount requirements for ~350 average temp staff per game',
-      'Built Tableau dashboards for Nationals Park and Audi Field giving senior leadership direct visibility into aggregated financial and operational performance — used in monthly strategic reviews and Per-Cap improvement recommendations',
+      'Assessed 10 to 15 technology and F&B vendors per season by attending pitch meetings, conducting ROI and cost-benefit analysis, and making partnership recommendations on stadium technology deployments including self-checkout systems; following onboarding, analyzed vendor sales data to advise on menu performance and product mix optimization',
+      'Led analytics for non-sporting events including concerts at Nationals Park and Audi Field, developing dynamic pricing strategy on specialty and alcoholic beverage items, drawing on market research and demographic data to shape product mix decisions, and running ROI and cost-benefit analysis to support pricing recommendations',
+      'Designed and developed a PowerApps staff management application hosted on Microsoft Teams, replacing a paper-based master roster with a live system, enabling managers to scan employee barcodes, view assigned concession postings, and reassign staff in real time throughout a venue with 350+ temporary workers',
+      'Engineered pre-event production PAR models for every concession location, calculating hourly item-level output targets based on attendance volume to prevent kitchen backlog, minimize food waste, and inform monthly supply chain inventory ordering and pre-game stocking',
+      'Automated the aggregation of millions of POS records from multiple sources using SQL, eliminating 80% of manual reporting hours and freeing the team to focus on decision-making rather than data wrangling',
+      'Served as the embedded operations strategist for F&B and venue functions spanning three properties, Nationals Park, Audi Field, and FedEx Field, covering pricing strategy, inventory planning, staffing models, and vendor analysis across different sports calendars, ownership structures, and event types',
+      'Constructed staffing PAR models calibrated to per-event ticket sales, translating attendance projections into location-level headcount requirements for an average of 350 temporary staff per game',
+      'Produced Tableau dashboards for Nationals Park and Audi Field, giving senior leadership direct visibility into aggregated financial and operational performance used in monthly strategic reviews and per-cap improvement recommendations',
     ],
   },
   {
@@ -50,9 +50,9 @@ const EXPERIENCE = [
     location: 'Bengaluru, India',
     dates: 'Aug 2018 – Aug 2019',
     bullets: [
-      'Identified an AutoCAD triage bottleneck and built a centralized automation dashboard — improving engineering team efficiency by 30% without a formal project mandate',
-      'Built Python macros that aggregated team status data and auto-generated executive presentations — improving reporting efficacy by 90% and eliminating a recurring manual bottleneck',
-      'Operated within Agile/SDLC environment with daily stand-ups and sprint cycles; onboarded and mentored 60+ new recruits across a year-long project',
+      'Identified an AutoCAD triage bottleneck and developed a centralized automation dashboard, improving engineering team efficiency by 30%',
+      'Programmed Python macros aggregating team status data and auto-generating executive presentations, improving reporting efficacy by 90% and eliminating a recurring manual process',
+      'Operated within an Agile/SDLC environment with daily stand-ups and sprint cycles, onboarding and mentoring 60+ new recruits throughout a year-long project',
     ],
   },
 ]
@@ -210,13 +210,10 @@ export default function AkankshaResume() {
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
               <p className="resume-summary">
-                Operator and builder with 6+ years turning ambiguity into infrastructure. I join organizations at inflection points — where the data exists but isn't usable, where the team is growing faster than the processes, where strategy lives in someone's head instead of a system — and I build the operational and analytical foundation that makes scale possible.
+                Operator and builder with 6+ years turning ambiguity into infrastructure. Background spans healthcare data platforms, venue and stadium operations, and AI governance. Track record of scaling teams, shipping tools without dedicated engineering resources, and contributing directly to executive strategy. Leads with data, communicates across every level of an organization, and takes full ownership of outcomes.
               </p>
               <p className="resume-summary">
-                My background spans healthcare data platforms, venue and stadium operations, and AI governance. I've built teams, shipped tools without dedicated engineering resources, and sat in rooms with executives shaping strategy — not just reporting on it. I lead with data, communicate across every level of an organization, and own problems end-to-end.
-              </p>
-              <p className="resume-summary">
-                Grew up in a military household that moved constantly, then a diplomatic posting — across two continents, but within environments so culturally diverse and structurally complex that geography was never the point. I've spent my whole life walking into rooms where I didn't know the rules and figuring them out fast. That instinct — read the room, build the relationships, make things work without a playbook — is still my most valuable operational skill.
+                Spent a lifetime being the newcomer in rooms where everyone else already knew the rules, and building the foundation before anyone else knew one was missing.
               </p>
             </section>
 
