@@ -49,7 +49,6 @@ const EXPERIENCE = [
     org: 'Accenture',
     location: 'Bengaluru, India',
     dates: 'Aug 2018 – Aug 2019',
-    desc: 'Selected through campus placement from a pool of 2,000 engineering graduates for a software engineering role at Accenture despite a chemical engineering background. Placed on a 500-person project delivering national internet infrastructure for an Australian government client, operating on Australian business hours from India.',
     bullets: [
       'Emerged as the primary liaison to visiting Australian leadership within six months of joining, representing a 100+ person polylingual team as the face of delivery for one of Accenture India\'s largest active engagements',
       'Designated subject matter expert for all incoming team members, authoring the onboarding methodology and training staff on network triage, AutoCAD analysis, and escalation protocols',
