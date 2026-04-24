@@ -4,7 +4,7 @@ const EXPERIENCE = [
   {
     title: 'Account Manager',
     org: 'Tyrula LLC',
-    location: 'McLean, VA (Remote)',
+    location: 'Portland, OR (Remote)',
     dates: 'Jan 2025 – Present',
     bullets: [
       'Oversees a 10-person cross-functional organization, having established the client engagement model, delivery cadence, and team accountability structures from the ground up upon joining',
@@ -187,7 +187,7 @@ export default function AkankshaResume() {
                 </span>
                 <a href="mailto:ardenvalellc@gmail.com">ardenvalellc@gmail.com</a>
                 <a
-                  href="https://www.linkedin.com/in/akanksha-bapna-927972102/"
+                  href="https://www.linkedin.com/in/akanksha-bapna/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Akanksha Bapna on LinkedIn"
@@ -211,7 +211,7 @@ export default function AkankshaResume() {
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
               <p className="resume-summary">
-                Operator and builder with 6+ years turning ambiguity into infrastructure. Background spans healthcare data platforms, venue and stadium operations, and AI governance. Track record of scaling teams, shipping tools without dedicated engineering resources, and contributing directly to executive strategy. Leads with data, communicates across every level of an organization, and takes full ownership of outcomes.
+                Operator and builder with 8+ years turning ambiguity into infrastructure. Background spans healthcare data platforms, venue and stadium operations, and AI governance. Track record of scaling teams, shipping tools without dedicated engineering resources, and contributing directly to executive strategy. Leads with data, communicates across every level of an organization, and takes full ownership of outcomes.
               </p>
               <p className="resume-summary">
                 Spent a lifetime being the newcomer in rooms where everyone else already knew the rules, and building the foundation before anyone else knew one was missing.
