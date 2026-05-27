@@ -1,17 +1,23 @@
 import { Music2, Palette, Languages, Linkedin, Github } from 'lucide-react'
 
+const CAREER_IMPACT = [
+  { number: '$1.4M+', label: 'Revenue unlocked via CBA & predictive ops' },
+  { number: '$3M+', label: 'Federal contracts de-risked via AI governance' },
+  { number: '28×', label: 'ROI on enterprise AI rollout' },
+]
+
 const EXPERIENCE = [
   {
     title: 'Account Manager',
     org: 'Tyrula LLC',
     location: 'Portland, OR (Remote)',
     dates: 'Jan 2025 – Present',
+    desc: 'No structure, nothing inherited. Built the client engagement model, delivery cadence, and team accountability framework from zero while running active federal and healthcare accounts simultaneously.',
     bullets: [
-      'Oversees a 10-person cross-functional organization, having established the client engagement model, delivery cadence, and team accountability structures from the ground up upon joining',
-      'Leads strategy and operations for a federal healthcare client, independently managing regulatory complexity while sustaining delivery momentum spanning engineering, analytics, and compliance workstreams',
-      'Drives growth across healthcare and federal verticals by identifying expansion opportunities, structuring SOW renewals, and aligning delivery roadmaps to client objectives without a dedicated sales or strategy function',
-      'Shepherds the company through CMMI appraisal by completing institute-required training and coordinating cross-functional participation across audit phases to validate process maturity',
-      'Manages ISO audit readiness by coordinating artifact collection, stakeholder interviews, and post-audit remediation spanning the full organization',
+      'Directs a 10-person team spanning FDA, CMS, and healthcare clients. Sole point of contact for a federal client juggling regulatory, engineering, and analytics workstreams simultaneously.',
+      'Automated FDA contract reporting on day one and cut 3 hrs/week of manual work before the seat was even warm.',
+      'Drives BD without a dedicated sales function. Pinpoints expansion opportunities, structures SOW renewals, and keeps delivery tightly aligned to client goals portfolio-wide.',
+      'Passed ISO audit and coordinated CMMI appraisal organization-wide. Both leveraged compliance frameworks personally authored in the prior role.',
     ],
   },
   {
@@ -19,13 +25,14 @@ const EXPERIENCE = [
     org: 'Tyrula LLC',
     location: 'McLean, VA (Hybrid)',
     dates: 'Aug 2023 – Dec 2024',
+    desc: 'Day one: the client expected all 14 platform reports live in 10 weeks. The internal team was mid-build on a separate feature with no plan to stop. Restructured both delivery tracks, scoped the feature down to cut dev load, and hired a dedicated BA to run requirements in parallel. Both shipped on time and secured a $1M/year client relationship.',
     bullets: [
-      'Architected a Power BI and Azure Data Factory data platform with no existing infrastructure or inherited process, delivering real-time data access to 900+ healthcare institutions and achieving a 20% improvement in efficiency',
-      'Earned a promotion to Project Manager within three months of joining, scaled the team from 3 to 10 members, authored every process document and workflow from scratch, and maintained on-schedule delivery throughout',
-      'Designed and launched the company\'s AI governance program, piloting Microsoft Copilot organization-wide to increase employee AI proficiency by 30%, developing the ML training curriculum, and authoring the AI Acceptable Use Policy',
-      'Established the Agile operating model where none had existed, standing up sprint cadences, retrospectives, capacity planning, and budget forecasting, reducing project turnaround by 25%',
-      'Contributed directly to CEO-level planning on AI roadmap and financial positioning, shaping the recommendations rather than preparing the materials',
-      'Mentored three interns through a 10-week program, all of whom returned for winter placements, and coached a new hire through a career transition resulting in a 10% salary increase and a move into federal contracting',
+      'Engineered ACHA\'s first live data platform from nothing (Power BI + Azure Data Factory). Replaced a static PDF across 900+ institutions with real-time benchmarking, generating ~$135K/year in new member revenue, reclaiming ~$60K/year in staff capacity, and establishing the org\'s primary acquisition asset at national conferences.',
+      'Caught 48% scope creep (~1,200 hrs on a 2,500 hr contract) and designed a Change Management SOP that made the cost of every client request impossible to ignore. Clawed back ~$105K in additional revenue. SOP now standard across Tyrula\'s PM Center of Excellence.',
+      'Launched the company\'s AI governance program and drove Copilot adoption across 35 employees at 28x ROI (~$359K/year in productivity). Authored the AI Acceptable Use Policy covering HIPAA, FedRAMP, and CUI. Passed ISO audit and actively protected $3M+ in federal contracts from compliance exposure.',
+      'Promoted to PM in 3 months, fastest on the cohort. Grew the team from 3 to 10 and built an onboarding system that had people fully productive within weeks. Two direct hires now generating $180K+/year across FDA, CMS, and ACHA. Championed an intern\'s raise from $70K to $110K through relentless internal advocacy.',
+      'Stood up Agile where none existed. Client calls fell from 2 hrs to 30 min, firedrills dropped to near zero, and cut ~$102K/year in communication overhead.',
+      'Shaped CEO decisions personally: AI roadmap, key hires, and contract expansion strategy.',
     ],
   },
   {
@@ -33,15 +40,12 @@ const EXPERIENCE = [
     org: 'Compass / E15 Group — Washington Nationals',
     location: 'Washington, DC (Hybrid)',
     dates: 'Jan 2022 – Aug 2023',
+    desc: 'Operations strategist at Nationals Park, Audi Field, and FedEx Field. Three venues, three ownership structures, three event calendars. One person responsible for pricing, inventory, staffing, and vendor strategy at all of them.',
     bullets: [
-      'Assessed 10 to 15 technology and F&B vendors per season by attending pitch meetings, conducting ROI and cost-benefit analysis, and making partnership recommendations on stadium technology deployments including self-checkout systems; following onboarding, analyzed vendor sales data to advise on menu performance and product mix optimization',
-      'Led analytics for non-sporting events including concerts at Nationals Park and Audi Field, developing dynamic pricing strategy on specialty and alcoholic beverage items, drawing on market research and demographic data to shape product mix decisions, and running ROI and cost-benefit analysis to support pricing recommendations',
-      'Designed and developed a PowerApps staff management application hosted on Microsoft Teams, replacing a paper-based master roster with a live system, enabling managers to scan employee barcodes, view assigned concession postings, and reassign staff in real time throughout a venue with 350+ temporary workers',
-      'Engineered pre-event production PAR models for every concession location, calculating hourly item-level output targets based on attendance volume to prevent kitchen backlog, minimize food waste, and inform monthly supply chain inventory ordering and pre-game stocking',
-      'Automated the aggregation of millions of POS records from multiple sources using SQL, eliminating 80% of manual reporting hours and freeing the team to focus on decision-making rather than data wrangling',
-      'Served as the embedded operations strategist for F&B and venue functions spanning three properties, Nationals Park, Audi Field, and FedEx Field, covering pricing strategy, inventory planning, staffing models, and vendor analysis across different sports calendars, ownership structures, and event types',
-      'Constructed staffing PAR models calibrated to per-event ticket sales, translating attendance projections into location-level headcount requirements for an average of 350 temporary staff per game',
-      'Produced Tableau dashboards for Nationals Park and Audi Field, giving senior leadership direct visibility into aggregated financial and operational performance used in monthly strategic reviews and per-cap improvement recommendations',
+      'Developed a Python/R predictive platform combining POS records, ticket sales, opponent history, and inning-level patterns. Precisely shaped venue open/close decisions, food prep timing, and staffing levels. Delivered ~$150K/year in waste reduction (confirmed by accounting) and ~$80K/year in staffing savings. CBA/ROI analysis unlocked a self-checkout rollout that produced 8% revenue growth (~$1.4M). Extended to Audi Field and deliberately left self-sustaining.',
+      'Coded and deployed a PowerApps staff management app entirely solo. Replaced a paper roster only one person could decipher with real-time badge scanning across 150 locations and 650 staff. Saved ~$55K/year in labor, wiped out DC wage compliance exposure, and removed a ~$200K/game-day single-point-of-failure risk. Demoed to Levy leadership for enterprise rollout.',
+      'Evaluated 10-15 technology and F&B vendors per season and developed dynamic pricing strategy for concerts and non-sporting events. Pricing restructure delivered a 2-3% revenue lift on a $15-20M F&B base.',
+      'Produced Tableau dashboards for senior leadership at Nationals Park and Audi Field, used directly in monthly strategic reviews and per-cap improvement decisions.',
     ],
   },
   {
@@ -49,11 +53,11 @@ const EXPERIENCE = [
     org: 'Accenture',
     location: 'Bengaluru, India',
     dates: 'Aug 2018 – Aug 2019',
+    desc: 'National broadband infrastructure rollout for the Australian government. 60-person team, 1,800+ triage tickets per day. First job out of college.',
     bullets: [
-      'Emerged as the primary liaison to visiting Australian leadership within six months of joining, representing a 100+ person polylingual team as the face of delivery for one of Accenture India\'s largest active engagements',
-      'Designated subject matter expert for all incoming team members, authoring the onboarding methodology and training staff on network triage, AutoCAD analysis, and escalation protocols',
-      'Programmed Python macros aggregating team status data and auto-generating executive presentations, improving reporting efficacy by 90% and eliminating a recurring manual process',
-      'Identified a structural bottleneck in the AutoCAD triage workflow and engineered a centralized automation dashboard, improving team efficiency by 30% across both shifts',
+      'Identified a structural bottleneck in the national triage workflow and proposed a fix that sharply reduced wrong technician dispatches and unnecessary senior escalations. Became the de facto onboarding authority and personally trained 60+ new recruits over the year.',
+      'Wrote Python macros that pulled daily status data from 60 team members and auto-generated executive presentations overnight. Eliminated manual spreadsheet reconciliation entirely and saved management ~$7K/year.',
+      'Within 6 months, became the primary liaison to visiting Australian leadership and represented a 100+ person team on one of Accenture India\'s largest active engagements.',
     ],
   },
 ]
@@ -207,14 +211,27 @@ export default function AkankshaResume() {
               </address>
             </header>
 
+            {/* ── CAREER IMPACT ── */}
+            <section className="resume-section" aria-labelledby="a-impact" style={{ marginBottom: 'var(--sp-3)' }}>
+              <h2 id="a-impact" className="resume-section-title">Career Impact</h2>
+              <div className="resume-impact-grid">
+                {CAREER_IMPACT.map(({ number, label }) => (
+                  <div key={number} className="resume-impact-stat">
+                    <span className="resume-impact-number">{number}</span>
+                    <span className="resume-impact-label">{label}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             {/* ── SUMMARY ── */}
             <section className="resume-section" aria-labelledby="a-summary">
               <h2 id="a-summary" className="resume-section-title">Professional Summary</h2>
               <p className="resume-summary">
-                Operator and builder with 8+ years turning ambiguity into infrastructure. Background spans healthcare data platforms, venue and stadium operations, and AI governance. Track record of scaling teams, shipping tools without dedicated engineering resources, and contributing directly to executive strategy. Leads with data, communicates across every level of an organization, and takes full ownership of outcomes.
+                <strong>8 YoE</strong> building the operating infrastructure executives depend on. Same pattern every time: walk in with no playbook, no inherited process, and leave behind systems that outlast the engagement. The industry changes. The approach doesn't.
               </p>
-              <p className="resume-summary">
-                Spent a lifetime being the newcomer in rooms where everyone else already knew the rules, and building the foundation before anyone else knew one was missing.
+              <p className="resume-summary" style={{ fontStyle: 'italic', borderLeft: '2px solid var(--border)', paddingLeft: '0.75rem', color: 'var(--text-muted)', marginTop: '0.75rem' }}>
+                Grew up in a military household that relocated constantly, then a diplomatic posting across two continents. Always the newcomer in rooms where everyone else already knew the rules. Got very good at building the foundation before anyone else knew one was missing.
               </p>
             </section>
 
@@ -232,7 +249,11 @@ export default function AkankshaResume() {
                     <span className="resume-entry-location">— {location}</span>
                   </p>
                   <div className="resume-entry-desc">
-                    {desc && <p className="resume-entry-note">{desc}</p>}
+                    {desc && (
+                      <p className="resume-entry-note" style={{ fontStyle: 'italic', borderLeft: '2px solid var(--border)', paddingLeft: '0.75rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
+                        {desc}
+                      </p>
+                    )}
                     <ul>{bullets.map(b => <li key={b}>{b}</li>)}</ul>
                   </div>
                 </div>
