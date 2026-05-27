@@ -391,6 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   .resume-entry-header { flex-direction: column; }
   .resume-skills-row { grid-template-columns: 1fr; }
   .resume-extra-grid { grid-template-columns: 1fr; }
+  .resume-impact-grid { grid-template-columns: 1fr; }
 }
 
 /* ========================= DARK MODE ========================= */
